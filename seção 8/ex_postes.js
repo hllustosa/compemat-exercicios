@@ -7,7 +7,7 @@ var d = input("d");
 //an - a1 = (n - 1) * r
 //(an - a1)/r = (n - 1)
 //(an - a1)/r + 1 = n
-var n = (d - 80)/m + 1;
+var n = (d - 80) / m + 1;
 
 //n = número de postes vezes o preço de 8000 por poste
 var total = n * 8000;

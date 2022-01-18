@@ -12,20 +12,19 @@ var restantes = E;
 //Probabilidade acumulada
 var probabilidade = 1;
 
-for(var i = 1; i <= posicao; i++){
+for (var i = 1; i <= posicao; i++) {
+  if (i == posicao) {
+    //Multiplicando pela probabilidade de João não ser o iésimo
+    //escolhido
+    probabilidade = (probabilidade * 1.0) / restantes;
+  } else {
+    //Multiplicando pela probabilidade de João não ser o
+    //iésimo escolhido
+    probabilidade = (probabilidade * (restantes - 1)) / restantes;
+  }
 
-    if(i == posicao) {
-        //Multiplicando pela probabilidade de João não ser o iésimo
-        //escolhido 
-        probabilidade = probabilidade * 1.0/restantes;
-    } else {
-        //Multiplicando pela probabilidade de João não ser o
-        //iésimo escolhido 
-        probabilidade = probabilidade * (restantes - 1)/(restantes);
-    }
-
-    //Decrementando número de pessoas na fila
-    restantes = restantes - 1;
+  //Decrementando número de pessoas na fila
+  restantes = restantes - 1;
 }
 
 //saída

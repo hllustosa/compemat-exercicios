@@ -7,7 +7,7 @@ var nao_trabalha_nao_estuda = input("nao_trabalha_nao_estuda");
 var total_pesquisa = 363000;
 
 //Calculo dos total de jovens que trabalham
-var total = total_pesquisa * (trabalhao_estuda + somente_trabalha)/100.0;
+var total = (total_pesquisa * (trabalhao_estuda + somente_trabalha)) / 100.0;
 
 //Realizando a saída
 output(total);

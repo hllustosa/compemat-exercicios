@@ -7,7 +7,6 @@ var x = input("x");
 //resolvendo para n
 //(an - a1)/d = n
 
-var n = 9000/(x*0.05);
+var n = 9000 / (x * 0.05);
 
 output(n);
-

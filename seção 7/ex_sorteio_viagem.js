@@ -8,7 +8,7 @@ var N35 = input("N35");
 var total = N30 + N31 + N32 + N33 + N34 + N35;
 
 //Probabilidade de eventos dependentes
-var probabilidade = N34/total * (N34-1)/(total-1);
+var probabilidade = ((N34 / total) * (N34 - 1)) / (total - 1);
 
 //saída
 output(probabilidade);

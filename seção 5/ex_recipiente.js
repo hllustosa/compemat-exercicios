@@ -9,6 +9,6 @@ var volume_a_preencher = 84;
 //o volume a ser preenchido e o volume de uma única bola.
 //Estamos usando a função teto (ceil) pois é possível
 //que V não seja um divisor de volume_a_preencher
-var num_bolas = Math.ceil(volume_a_preencher/V);
+var num_bolas = Math.ceil(volume_a_preencher / V);
 
 output(num_bolas);

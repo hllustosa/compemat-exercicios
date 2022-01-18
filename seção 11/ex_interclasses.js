@@ -11,7 +11,7 @@ function fatorial(n) {
 }
 
 function Arranjos(n, k) {
-  return fatorial(n) /fatorial(n - k);
+  return fatorial(n) / fatorial(n - k);
 }
 
 var n = input("n");
